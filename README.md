@@ -23,12 +23,11 @@ This project is divided into two main components:
 ```
 linkedin-web-crawler/
 ├── backend/                  # Backend folder for Python or Node.js crawler
-│   ├── __init__.py           # Python package initializer (if using Python)
+│   ├── __init__.py           # Python package initializer 
 │   ├── crawler.py            # Main web crawling script
 │   ├── scraper_utils.py      # Helper functions for scraping and data cleaning
 │   ├── config.py             # Configuration file for headers, proxies, etc.
 │   ├── requirements.txt      # Python dependencies
-│   ├── package.json          # Node.js dependencies (if using Node.js backend)
 │   └── output/               # Folder to store crawled data
 │       ├── profiles.json     # JSON file for profiles
 │       ├── companies.json    # JSON file for company data
