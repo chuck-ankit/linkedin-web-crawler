@@ -21,19 +21,17 @@ This project is divided into two main components:
 ## Project Structure
 
 ```
-linkedin-web-crawler/
-├── backend/                  # Backend folder for Python or Node.js crawler
-│   ├── __init__.py           # Python package initializer (if using Python)
-│   ├── crawler.py            # Main web crawling script
-│   ├── scraper_utils.py      # Helper functions for scraping and data cleaning
-│   ├── config.py             # Configuration file for headers, proxies, etc.
-│   ├── requirements.txt      # Python dependencies
-│   ├── package.json          # Node.js dependencies (if using Node.js backend)
-│   └── output/               # Folder to store crawled data
-│       ├── profiles.json     # JSON file for profiles
-│       ├── companies.json    # JSON file for company data
-│       └── logs/             # Logs of crawled sessions or errors
-├── frontend/                 # Frontend folder for React
+linkedin-crawler/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── routes.py
+│   │   ├── crawler.py
+│   │   ├── utils.py
+│   │   ├── credentials.py
+│   ├── main.py
+│   ├── requirements.txt
+├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
@@ -41,6 +39,7 @@ linkedin-web-crawler/
 │   │   ├── index.jsx
 │   ├── package.json
 │   ├── vite.config.js
+
 
 
 ```
