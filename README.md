@@ -39,24 +39,19 @@ linkedin-crawler/
 │   │   ├── index.jsx
 │   ├── package.json
 │   ├── vite.config.js
-
-
-
 ```
 
 ## Requirements
 
 ### Backend:
-The backend is built using either **Python**.Below are the required dependencies for both languages:
-
-You can install these dependencies by running the following commands:
+The backend is built using **Python**. Below are the required dependencies for both the backend and frontend:
 
 **For Python:**
 ```bash
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 ```
 
-**For Node.js:**
+**For Node.js (Frontend):**
 ```bash
 npm install
 ```
@@ -84,23 +79,13 @@ cd linkedin-web-crawler
      python backend/crawler.py
      ```
 
-2. **Node.js Setup** (if using Node.js):
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Navigate to the `backend/` folder and run the crawler:
-     ```bash
-     node backend/crawler.js
-     ```
-
 ### Step 3: Set up the Frontend
 
 1. Navigate to the `frontend/` folder:
    ```bash
    cd frontend
    ```
-   
+
 2. Install the required frontend dependencies:
    ```bash
    npm install
@@ -111,10 +96,23 @@ cd linkedin-web-crawler
    npm start
    ```
 
+## Demo
+
+### Below are some images demonstrating the features of the LinkedIn Web Crawler:
+
+#### 1. **Frontend Interface:**
+   - The main dashboard for managing crawl tasks and viewing results:
+   ![Frontend Dashboard](./static/Screenshot%20(206).png)
+
+#### 2. **Crawler in Action:**
+   - A screenshot showing the crawling process and data extraction:
+   ![Crawler in Action](./static/image.png)
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-This **LinkedIn Web Crawler** project allows users to gather LinkedIn data efficiently while providing a user-friendly interface for easy management and viewing of results. Be sure to respect LinkedIn’s terms of service and use this tool responsibly.
+
